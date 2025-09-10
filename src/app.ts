@@ -1,5 +1,5 @@
-const greeting = (name: string) => {
-  return `Hello, ${name}!`;
-}
+import { runObserver } from "./observer/index.js";
 
-console.log(greeting("World"));
+
+console.log(`\n//////////////////////// OBSERVER ///////////////////////\n`)
+runObserver();
